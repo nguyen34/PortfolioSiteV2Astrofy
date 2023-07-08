@@ -4,7 +4,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 const yearsOfExperience = new Date().getFullYear() - 2018;
 ---
 
-<BaseLayout title="Resume" sideBarActiveItemID="cv">
+<BaseLayout title="Resume | Johnson Nguyen" sideBarActiveItemID="cv">
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Profile</div>
   </div>
@@ -37,39 +37,134 @@ const yearsOfExperience = new Date().getFullYear() - 2018;
     <div class="text-3xl w-full font-bold">Experience</div>
   </div>
 
-  <div class="time-line-container mb-10">
+  <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Full Stack Software Engineer at Farmlink Marketing Solutions"
+      subtitle="From February 2022 to March 2023 at Farmlink Marketing Solutions, Winnipeg, MB, Canada"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident.
+    <li> 
+      Developed and deployed enterprise-level applications for a full-stack Vue and Django RESTful
+      application used by ~4000 users
+    </li>
+    <li>
+      Developed a microservice for NLG that processes user inputs and generates a natural language
+      suggestion using Wordsmith API
+    </li>
+    <li>
+      Cooperated with a large development team on a Github monorepo with team code reviews
+    </li>
+    <li>
+      Worked on a tech stack of Vuetify, JavaScript, Typescript, MySQL, PostgreSQL, Django, Python,
+      Docker and Celery
+    </li>
+    <li>
+      Integrated the application with various external services and APIs such as Salesforce, Chargebee,
+      and Sendgrid
+    </li>
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Frontend Developer - Contract at PressReader"
+      subtitle="From April 2021 to November 2021 at PressReader, Richmond, BC, Canada"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident.
+    <li>
+      Developed a cloud based client reader application that reads and processes a variety of e-books,
+      allowing users to take notes, highlight text, scroll through pages
+    </li>
+    <li>
+      Worked primarily with React and Typescript, performing heavy front end work with a some
+      experienced with a cloud-based backend of our product
+    </li>
+    <li>
+        Worked on an application that supported both desktop and mobile web environments
+    </li>
+    <li>
+      Wrote unit tests, performed code reviews and optimizations, and introduced new libraries to build
+      on top of the application
+    </li>
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Software Developer at Exan Group"
+      subtitle="From March 2020 to February 2021 at Exan Group, Coquitlam, BC, Canada"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident.
+    <li>
+      Developed a Cloud Based Dental Application, Axium Ascend, for both business operations
+      (Front Desk and Clinical) and academic purposes (Approvals and Evaluations)
+    </li>
+    <li>
+      Developed in Javascript and Java, using Groovy/Grails Framework and worked on tasks on both
+      the front-end and back-end of the application
+    </li>
+    <li>
+      Worked in tandem with QA Team and Business Leads to clarify Acceptance Criteria on features
+    </li>
+    <li>
+      Communicated often with team members via Slack/MS Teams
+    </li>
+    <li>
+      Developed new problem solving self-practices for web applications with Google Developer Tools
+      and IntelliJ Debugger
+    </li>
+    </TimeLineElement>
+    <TimeLineElement
+      title="Junior Software Engineer at Care1 Telemedicine"
+      subtitle="From November 2017 to February 2020 at Care1 Telemedicine, Burnaby, BC, Canada"
+    >
+    <li> 
+      Developed and tested two Web applications, Care1’s Telemedicine platform, for conducting
+      remote eye exams and Avocado, a contact lens ordering website
+    </li>
+    <li>
+      Developed in Javascript and Python, and used React.js and Django libraries and performed tasks
+      on both the front-end and back-end of both web applications
+    </li>
+    <li>
+      Handled detailed QA of own work as well as others during code reviews
+    </li>
+    <li>
+      Regularly communicated with both team members and project managers
+    </li>
+    <li>
+      Maintained and managed database for both web applications and regularly checked backups
+    </li>
+    </TimeLineElement>
+    <TimeLineElement
+      title="Temporary QA Technician at NGX Interactive"
+      subtitle="From October 2017 to November 2017 at NGX Interactive, Vancouver, BC, Canada"
+    >
+    <li>
+      Worked on a virtual aquarium and mobile website for BC Children's Hospital, and an interactive
+      storytelling experience for Fort Walsh and Fred Kavli
+    </li>
+    <li>
+      Managed and performed QA Verification for 3 projects simultaneously
+    </li>
+    <li>
+      Collaborated with various Project Manager's and developers in charge of each of the 3 projects
+    </li>
+    <li>
+      Conducted tool evaluation on several Android/iOS emulators to better facilitate testing in a virtual
+      environment
+    </li>
+    <li>
+      Tracked Bugs and Test Results through a software called AxoSoft
+    </li>
+    </TimeLineElement>
+    <TimeLineElement
+      title="QA Automation Co-op at T2 Systems Canada"
+      subtitle="From May 2015 to December 2015 at T2 Systems Canada, Burnaby, BC, Canada"
+    >
+    <li>
+      Researched and integrated Robot Framework to web application to replace old JavaScript
+      framework, making test scripts easier to understand for QA team
+    </li>
+    <li>
+      Instructed QA team on how to use the new framework by writing up tutorials and exercise sets for
+      the team to follow
+    </li>
+    <li>
+      Designed, documented and implemented various Engineering related projects and in-house
+      application software application
+    </li>
     </TimeLineElement>
   </div>
 
